@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Purpose: Say hello
+# Purpose: Say hello world
 
 import argparse
 
