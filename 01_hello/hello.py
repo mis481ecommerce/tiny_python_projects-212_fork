@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 """
 Author : zshi <zshi@localhost>
 Date   : 2023-01-16
@@ -9,7 +8,11 @@ Purpose: Say Hello
 import argparse
 
 
+def test():
+    print("test")
 # --------------------------------------------------
+
+
 def get_args():
     """Get command-line arguments"""
 
@@ -24,16 +27,17 @@ def get_args():
                         type=str,
                         default='World')
 
-
     return parser.parse_args()
 
 
 # --------------------------------------------------
+
+
 def main():
     """say hello"""
 
     args = get_args()
-    word= args.name
+    word = args.name
     print("test git")
     print(f"Hello, {word}!")
 
