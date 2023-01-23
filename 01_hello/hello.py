@@ -34,6 +34,7 @@ def main():
 
     args = get_args()
     word= args.name
+    print("test git")
     print(f"Hello, {word}!")
 
 
