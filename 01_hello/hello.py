@@ -8,11 +8,6 @@ Purpose: Say Hello
 import argparse
 
 
-def test():
-    print("test")
-# --------------------------------------------------
-
-
 def get_args():
     """Get command-line arguments"""
 
@@ -38,10 +33,13 @@ def main():
 
     args = get_args()
     word = args.name
-    print("test git")
+    # print("test git")
+    
     print(f"Hello, {word}!")
 
 
 # --------------------------------------------------
 if __name__ == '__main__':
     main()
+
+
